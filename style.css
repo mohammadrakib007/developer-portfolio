@@ -55,9 +55,31 @@ h2{
 
     box-shadow:10px 10px  40px grey;
     border-radius: 2%;
+    border-left: 10px solid black;
+   
 }
 .experience-area{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+}
+#web{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,rgb(94, 53, 45));
+   
+    border-image-slice: 1;
+    
+
+}
+#webs{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue ,red);
+    border-image-slice: 1;
+
+      
+}
+footer p{
+       text-align: center;
+       color: rgb(179, 80, 44);
+
 }
